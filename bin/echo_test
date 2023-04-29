@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+DIR_PATH=$(dirname $0)
+
+cd $DIR_PATH/..
+
+# mix compile
+
+# I don't have this globally avaliable
+~/maelstrom/maelstrom test -w echo \
+  --bin bin/echo \
+  --node-count 1 \
+  --time-limit 10
