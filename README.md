@@ -1,21 +1,14 @@
 # Gabby
 
-**TODO: Add description**
+An Elixir solution for [Fly.io Gossip Glomers](https://fly.io/dist-sys/) challange.
 
-## Installation
+## Test Strings
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `gabby` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:gabby, "~> 0.1.0"}
-  ]
-end
+```
+{"src":"c1","dest":"n1","body":{"type":"init","msg_id":1,"node_id":"n1","node_ids":["n1"]}}
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/gabby>.
-
+echo test
+```
+{"src":"c1","dest":"n1","body":{"msg_id":1,"type":"echo","echo":"hello there"}}
+```

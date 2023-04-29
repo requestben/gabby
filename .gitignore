@@ -24,3 +24,6 @@ gabby-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Maelstrom Store
+/store/
